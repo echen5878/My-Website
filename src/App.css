@@ -1,0 +1,84 @@
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #313131; */
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: darkgray;
+    /* color: white; */
+  }
+  
+  .facebook {
+    /* animation: App-logo-spin infinite 5s linear; */
+    background: #3B5998;
+    color: white !important;
+  }
+
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white !important;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .instagram {
+    background: #125688;
+    color: white !important;
+  }
+  
+  .github {
+    background: #000000;
+    color: white !important;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+  .header-text{
+    color: white !important;
+  }
+
+  .skillname{
+    text-align: center;
+  }
+
+  .skilltext{
+    text-align: center;
+  }
+
+  .bar-expand.git{
+    width: 65%;
+  }

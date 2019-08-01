@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name":"Eric Chen",
+    "occupation":"Software Engineer Intern",
+    "description":"Here you'll learn about what I do, what I've done, and what I am interested in doing.",
+    "image":"headshot.jpg",
+    "bio":"I am currently in my final year at Cornell University pursuing a Masters of Engineering in computer science. I am passionate about the intersection between artificial intelligence, machine learning, and data science. In my free time I like to play basketball and ocassionally watch TV or sports.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "echen5878@gmail.com",
+    "phone": "2243929293",
+    "address":{
+      "city":"Chicago",
+      "state":"Illinois"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/kddoubleot",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/eric-chen-3a5921139/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/ericrocks619",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/echen5878",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here are some of the software and technologies I have been using and my experience in each skill.",
+    "education":[
+      {
+        "school":"Cornell University",
+        "degree":"Masters of Engineering in Computer Science",
+        "graduated":"May 2020",
+        "description":"I am still pursuing this so updates to this are still to come!"
+      },
+      {
+        "school":"Cornell University",
+        "degree":"B.S. in Computer Science",
+        "graduated":"December 2019",
+        "description":"stuff"
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"90"
+      },
+      {
+        "name":"Java",
+        "level":"95"
+      },
+      {
+        "name":"Python",
+        "level":"65"
+      },
+      {
+        "name":"SQL",
+        "level":"70"
+      },
+      {
+        "name":"ReactJS",
+        "level":"60"
+      },
+      {
+        "name":"R",
+        "level":"50"
+      },
+      {
+        "name":"Spring",
+        "level":"40"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"40"
+      },
+      {
+        "name":"OCaml",
+        "level":"50"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Mineswifter",
+        "category":"A taylor swift themed minesweeper game in OCaml",
+        "image":"mineswifter.png",
+        "url":"https://github.com/echen5878/MineSwifter"
+      },
+      {
+        "title":"K nearest neighbor classifier",
+        "category":"KNN classifier to classify numbers",
+        "image":"knn.png"
+      },
+      {
+        "title":"Perceptron",
+        "category":"Perceptron classifier for ML",
+        "image":"perceptron.png"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
