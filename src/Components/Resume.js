@@ -4,7 +4,6 @@ import 'react-circular-progressbar/dist/styles.css';
 import ProgressProvider from "./ProgressProvider";
 import VisibilitySensor from "react-visibility-sensor";
 
-
 class Resume extends Component {
   
   render() {
@@ -25,6 +24,9 @@ class Resume extends Component {
           <li>CS 4780: Machine Learning for Intelligent Systems</li>
           <li>CS 4787: Large scale machine learning</li>
           <li>CS 4820: Analysis of Algorithms</li>
+          <li>CS 5152: Open-Source Software Engineering</li>
+          <li>CS 5306: Crowdsourcing and Human Computation</li>
+          <li>CS 5414: Distributed Systems Principles</li>
         </ul>
         </div>
       })
@@ -53,7 +55,7 @@ class Resume extends Component {
             );
             }}
           </VisibilitySensor>
-          <p className="skilltext">Stuff</p>
+          <p className="skilltext"></p>
           </div>
       })
     }
