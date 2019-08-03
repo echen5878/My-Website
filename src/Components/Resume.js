@@ -13,7 +13,20 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+        <h5>Technical classwork</h5>
+        <ul>
+          <li>CS 2110: OOP and Data Structures</li>
+          <li>CS 3110: Functional Programming</li>
+          <li>CS 3410: Computer Systems Organization</li>
+          <li>CS 4410: Operating Systems</li>
+          <li>CS 4450: Computer Networks</li>
+          <li>CS 4740: Natural Language Processing</li>
+          <li>CS 4670: Computer Vision</li>
+          <li>CS 4780: Machine Learning for Intelligent Systems</li>
+          <li>CS 4787: Large scale machine learning</li>
+          <li>CS 4820: Analysis of Algorithms</li>
+        </ul>
+        </div>
       })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
@@ -84,14 +97,8 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+            <p>{skillmessage}</p>
 
-				{/* <div className="bars">
-				   <ul className="skills">
-             {skills}
-					</ul>
-        </div> */}
         <ul class="bgrid-quarters s-bgrid-thirds cf">
              {skills}
 				</ul>
