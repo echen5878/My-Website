@@ -1,0 +1,207 @@
+{
+  "main": {
+    "name":"Eric Chen",
+    "occupation":"Software Engineer Intern",
+    "description":"Here you'll learn about what I do, what I've done, and what I am interested in doing.",
+    "image":"headshot.jpg",
+    "bio":"I am currently in my final year at Cornell University pursuing a Masters of Engineering in computer science. I am passionate about the intersection between artificial intelligence, machine learning, and data science. In my free time I like to play basketball and ocassionally watch TV or sports.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "echen5878@gmail.com",
+    "phone": "2243929293",
+    "address":{
+      "city":"Chicago",
+      "state":"Illinois"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/kddoubleot",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/eric-chen-3a5921139/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/ericrocks619",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/echen5878",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here are some of the software and technologies I have been using and my experience in each skill.",
+    "education":[
+      {
+        "school":"Cornell University",
+        "degree":"Masters of Engineering in Computer Science",
+        "graduated":"May 2020"
+      }
+    ],
+    "work":[
+      {
+        "company":"Cornell University",
+        "title":"Teaching Assistant",
+        "years":"August 2017 - Present",
+        "description":"I am a teaching assistant for differential equations, machine learning, artificial intelligence, and computer organization. For the differential equations class, I prepared worksheets and lectures for students in the class and met biweekly with other facilitators to learn and train about active learning techniques. For the other classes, I helped grade homework and exams for respective class and held office hours to help students understand the material."
+      },
+      {
+        "company":"JP Morgan Chase",
+        "title":"Software Engineer Intern",
+        "years":"June 2019 - August 2019",
+        "description":"Created a Spring Boot application as a REST API controller for the backend and used ReactJS app for user interface, which applied changes to the backend. Then used Maven packaging to build backend and frontend into a single war file web application for deployment onto Apache Tomact server."
+      },
+      {
+        "company":"Harman International",
+        "title":"Software Engineering Intern",
+        "years":"May 2018 - August 2018",
+        "description":"Used Python Flask web framework to connect Postgresql to Python through ORM and Graphql. Then wrote Python script to create nodes and relationships for company models in Neo4j graph database."
+      },
+      {
+        "company":"Harman International",
+        "title":"Software Engineering Intern",
+        "years":"May 2017 - August 2017",
+        "description":"Used data intelligence platform powered by Splunk to search, analyze, and visualize big data. Wrote Python code and regex to format Android log files and index them into Splunk for analysis. Then developed Python modules to analyze Android HMI tickets by important attributes such as Priority and Date and generate reports for tickets without log files."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"90"
+      },
+      {
+        "name":"Java",
+        "level":"95"
+      },
+      {
+        "name":"Python",
+        "level":"65"
+      },
+      {
+        "name":"SQL",
+        "level":"70"
+      },
+      {
+        "name":"ReactJS",
+        "level":"60"
+      },
+      {
+        "name":"R",
+        "level":"50"
+      },
+      {
+        "name":"Spring",
+        "level":"40"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"40"
+      },
+      {
+        "name":"OCaml",
+        "level":"50"
+      },
+      {
+        "name":"C++",
+        "level":"50"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Mineswifter",
+        "category":"A taylor swift themed minesweeper game in OCaml",
+        "image":"mineswifter.png",
+        "url":"https://github.com/echen5878/MineSwifter"
+      },
+      {
+        "title":"K nearest neighbor classifier",
+        "category":"KNN classifier to classify numbers",
+        "image":"knn.png"
+      },
+      {
+        "title":"Perceptron",
+        "category":"Perceptron classifier for ML",
+        "image":"perceptron.png"
+      },
+      {
+        "title":"Website",
+        "category":"A React based personal website",
+        "image":"website.png",
+        "url":"https://github.com/echen5878/My-Website"
+      },
+      {
+        "title":"Empirical Risk Minimization",
+        "category":"ERM using gradient descent for spam filtering",
+        "image":"ERM.png"
+      },
+      {
+        "title":"Bias Variance tradeoff",
+        "category":"Analyzing bias variance tradeoff in machine learning",
+        "image":"bias var.png"
+      },
+      {
+        "title":"Kernelized SVM",
+        "category":"RBF kernel support vector machine",
+        "image":"kernels.png"
+      },
+      {
+        "title":"Random forest classifier",
+        "category":"Random forest classifier with adaboost",
+        "image":"random forest.png"
+      },
+      {
+        "title":"Hybrid image filtering",
+        "category":"Extracts low/high frequencies from images to create hybrids",
+        "image":"hybrid image.png"
+      },
+      {
+        "title":"Edge detection",
+        "category":"Using image gradients for edge detection and contour",
+        "image":"gradients.png"
+      },
+      {
+        "title":"Feature detection",
+        "category":"Using MOPS to detect features across transformed images",
+        "image":"feature detection.png"
+      },
+      {
+        "title":"Albedos and lighting",
+        "category":"Use plane sweep and photometric stereos to extract depth",
+        "image":"normals.png"
+      },
+      {
+        "title":"Convolutional neural net",
+        "category":"CNN for image recognition with adversarial noise",
+        "image":"neural net.png"
+      },
+      {
+        "title":"CSMA/CD simulator",
+        "category":"Simulates progress of packet delivery in networking with CSMA/CD",
+        "image":"CSMA-CD.png",
+        "url":"https://github.com/echen5878/CSMA-CD-simulator"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
