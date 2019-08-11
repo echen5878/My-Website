@@ -57,7 +57,7 @@
         "company":"JP Morgan Chase",
         "title":"Software Engineer Intern",
         "years":"June 2019 - August 2019",
-        "description":"Created a Spring Boot application as a REST API controller for the backend and used ReactJS app for user interface, which applied changes to the backend. Then used Maven packaging to build backend and frontend into a single war file web application for deployment onto Apache Tomact server."
+        "description":"Developed the \"Chaos Proxy\" application, which simulated network latencies and outages experienced by network requests to the various mock services used by the application during high load Performance testing (Similar to the Chaos Monkey Project - Netflix). Created a UI dashboard to allow performance testers to configure various mock services using ReactJS and Bootstrap. The server side proxy application was developed using Spring Boot. Application was built and deployed as a standalone war file on Apache Tomcat."
       },
       {
         "company":"Harman International",
@@ -83,7 +83,7 @@
       },
       {
         "name":"Python",
-        "level":"65"
+        "level":"70"
       },
       {
         "name":"SQL",
@@ -136,8 +136,7 @@
       {
         "title":"Website",
         "category":"A React based personal website",
-        "image":"website.png",
-        "url":"https://github.com/echen5878/My-Website"
+        "image":"website.png"
       },
       {
         "title":"Empirical Risk Minimization",
