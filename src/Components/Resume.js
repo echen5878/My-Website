@@ -10,23 +10,14 @@ class Resume extends Component {
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
+        var classes = education.classes.map(function(classt){
+          return <li>{classt}</li>
+        })
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <h5>Technical classwork</h5>
         <ul>
-          <li>CS 2110: OOP and Data Structures</li>
-          <li>CS 3110: Functional Programming</li>
-          <li>CS 3410: Computer Systems Organization</li>
-          <li>CS 4410: Operating Systems</li>
-          <li>CS 4450: Computer Networks</li>
-          <li>CS 4740: Natural Language Processing</li>
-          <li>CS 4670: Computer Vision</li>
-          <li>CS 4780: Machine Learning for Intelligent Systems</li>
-          <li>CS 4787: Large scale machine learning</li>
-          <li>CS 4820: Analysis of Algorithms</li>
-          <li>CS 5152: Open-Source Software Engineering</li>
-          <li>CS 5306: Crowdsourcing and Human Computation</li>
-          <li>CS 5414: Distributed Systems Principles</li>
+          {classes}
         </ul>
         </div>
       })

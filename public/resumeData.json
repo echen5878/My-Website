@@ -43,7 +43,14 @@
       {
         "school":"Cornell University",
         "degree":"Masters of Engineering in Computer Science",
-        "graduated":"May 2020"
+        "graduated":"May 2020",
+        "classes":["CS 5414: Distributed Computing Principles"]
+      },
+      {
+        "school":"Cornell University",
+        "degree":"Bachelor's of Science in Computer Science",
+        "graduated":"December 2019",
+        "classes":["CS 2110: OOP and Data Structures", "CS 3110: Functional Programming", "CS 3410: Computer Systems Organization", "CS 4410: Operating Systems", "CS 4450: Computer Networks", "CS 4740: Natural Language Processing", "CS 4670: Computer Vision", "CS 4700: Artificial Intelligence", "CS 4780: Machine Learning for Intelligent Systems", "CS 4787: Large Scale Machine Learning", "CS 4820: Analysis of Algorithms"]
       }
     ],
     "work":[
