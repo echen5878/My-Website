@@ -22,7 +22,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/eric-chen-3a5921139/",
+        "url":"https://www.linkedin.com/in/ericchen5878",
         "className":"fa fa-linkedin"
       },
       {
@@ -44,7 +44,7 @@
         "school":"Cornell University",
         "degree":"Masters of Engineering in Computer Science",
         "graduated":"May 2020",
-        "classes":["CS 5414: Distributed Computing Principles"]
+        "classes":["CS 5414: Distributed Computing Principles", "CS 5620: Computer Graphics", "CS 6766: Reasoning About Uncertainty"]
       },
       {
         "school":"Cornell University",
@@ -111,10 +111,6 @@
       {
         "name":"Bootstrap",
         "level":"40"
-      },
-      {
-        "name":"OCaml",
-        "level":"50"
       },
       {
         "name":"C++",
