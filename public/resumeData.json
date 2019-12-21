@@ -12,8 +12,6 @@
       "city":"Chicago",
       "state":"Illinois"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
@@ -191,6 +189,41 @@
         "category":"Simulates progress of packet delivery in networking with CSMA/CD",
         "image":"CSMA-CD.png",
         "url":"https://github.com/echen5878/CSMA-CD-simulator"
+      },
+      {
+        "title":"Filters",
+        "category":"Uses filters to smooth upsampling and downsampling",
+        "image":"filters.png"
+      },
+      {
+        "title":"Meshes",
+        "category":"Generates meshes using triangles",
+        "image":"meshes.png"
+      },
+      {
+        "title":"Ray Tracing",
+        "category":"Uses ray tracing to render a scene",
+        "image":"ray tracing.png"
+      },
+      {
+        "title":"Manipulators",
+        "category":"Uses manipulators to perform affine transformations on objects",
+        "image":"manipulators.png"
+      },
+      {
+        "title":"Shaders",
+        "category":"Uses GLSL for vertex and fragment shaders",
+        "image":"shaders.png"
+      },
+      {
+        "title":"Splines",
+        "category":"Generates splines given the control points",
+        "image":"splines.png"
+      },
+      {
+        "title":"Animation",
+        "category":"Updates timeline with transformations to a character",
+        "image":"animation.png"
       }
     ]
   },
