@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Eric Chen",
-    "occupation":"Software Engineer Intern",
+    "occupation":"Software Development Engineer",
     "description":"Here you'll learn about what I do, what I've done, and what I am interested in doing.",
     "image":"headshot.jpg",
     "bio":"I am currently in my final year at Cornell University pursuing a Masters of Engineering in computer science. I am passionate about the intersection between artificial intelligence, machine learning, and data science. In my free time I like to play basketball and ocassionally watch TV or sports.",
@@ -42,7 +42,7 @@
         "school":"Cornell University",
         "degree":"Masters of Engineering in Computer Science",
         "graduated":"May 2020",
-        "classes":["CS 5414: Distributed Computing Principles", "CS 5620: Computer Graphics", "CS 6766: Reasoning About Uncertainty"]
+        "classes":["CS 5414: Distributed Computing Principles", "CS 5620: Computer Graphics", "CS 6766: Reasoning About Uncertainty", "CS 5430: Systems Security", "CS 6700: Advanced Artificial Intelligence", "CS 4300: Language and Information"]
       },
       {
         "school":"Cornell University",
@@ -56,7 +56,7 @@
         "company":"Cornell University",
         "title":"Teaching Assistant",
         "years":"August 2017 - Present",
-        "description":"I am a teaching assistant for differential equations, machine learning, artificial intelligence, and computer organization. For the differential equations class, I prepared worksheets and lectures for students in the class and met biweekly with other facilitators to learn and train about active learning techniques. For the other classes, I helped grade homework and exams for respective class and held office hours to help students understand the material."
+        "description":"I am a teaching assistant for data structures and OOP, differential equations, machine learning, artificial intelligence, and computer organization. For the differential equations class, I prepared worksheets and lectures for students in the class and met biweekly with other facilitators to learn and train about active learning techniques. For the other classes, I helped grade homework and exams for respective class and held office hours to help students understand the material."
       },
       {
         "company":"JP Morgan Chase",
