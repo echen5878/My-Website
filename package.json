@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://echen5878.github.io/My-Website",
   "dependencies": {
-    "eslint-utils": "^1.4.2",
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.6",
-    "react-circular-progressbar": "^2.0.1",
-    "react-dom": "^16.8.6",
+    "eslint-utils": "^1.4.3",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.1",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
     "react-scripts": "3.0.1",
     "react-visibility-sensor": "^5.1.1"
   },
