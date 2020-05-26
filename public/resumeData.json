@@ -224,6 +224,18 @@
         "title":"Animation",
         "category":"Updates timeline with transformations to a character",
         "image":"animation.png"
+      },
+      {
+        "title":"CharCrafter",
+        "category":"Character build recommender for dungeons & dragons",
+        "image":"charcrafter.png",
+        "url":"http://charcrafter.herokuapp.com"
+      },
+      {
+        "title":"Coup Agents",
+        "category":"Artificial intelligence models for the game Coup",
+        "image":"coup.jpg",
+        "url":"https://github.com/echen5878/CS6700-Project"
       }
     ]
   },
