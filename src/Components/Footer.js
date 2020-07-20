@@ -15,10 +15,10 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
           <div class="icon-bar">
-            <a href="https://www.facebook.com/kddoubleot" className="facebook"><i class="fa fa-facebook"></i></a>
+            {/* <a href="https://www.facebook.com/kddoubleot" className="facebook"><i class="fa fa-facebook"></i></a> */}
             <a href="https://github.com/echen5878" className="github"><i class="fa fa-github"></i></a>
             <a href="https://www.linkedin.com/in/eric-chen-3a5921139/" className="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/ericrocks619/" className="instagram"><i class="fa fa-instagram"></i></a>
+            {/* <a href="https://www.instagram.com/ericrocks619/" className="instagram"><i class="fa fa-instagram"></i></a> */}
           </div>
 
            <ul className="copyright">
