@@ -43,9 +43,15 @@
     ],
     "work":[
       {
+        "company":"Amazon Web Services (AWS)",
+        "title":"Software Development Engineer",
+        "years":"July 2020 - Present",
+        "description":"I am working on a team in AWS Managed Services, which is a service family under AWS that manages customer accounts and changes done in their accounts through various services that we developed."
+      },
+      {
         "company":"Cornell University",
         "title":"Teaching Assistant",
-        "years":"August 2017 - Present",
+        "years":"August 2017 - May 2020",
         "description":"I am a teaching assistant for data structures and OOP, differential equations, machine learning, artificial intelligence, and computer organization. For the differential equations class, I prepared worksheets and lectures for students in the class and met biweekly with other facilitators to learn and train about active learning techniques. For the other classes, I helped grade homework and exams for respective class and held office hours to help students understand the material."
       },
       {
