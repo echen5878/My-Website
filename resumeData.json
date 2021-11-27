@@ -1,250 +1,288 @@
 {
-  "main": {
-    "name":"Eric Chen",
-    "occupation":"Software Development Engineer",
-    "description":"Here you'll learn about what I do, what I've done, and what I am interested in doing.",
-    "image":"headshot.jpg",
-    "bio":"I am currently a software developer at Amazon. I am passionate about the intersection between artificial intelligence, machine learning, and data science. In my free time I like to play basketball and ocassionally watch TV or sports as well as watch anime. You can check out my anime list with the tab in the header.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "echen5878@gmail.com",
-    "phone": "2243929293",
-    "address":{
-      "city":"Chicago",
-      "state":"Illinois"
+    "main": {
+        "name": "Eric Chen",
+        "occupation": "Software Development Engineer",
+        "description": "Here you'll learn about what I do, what I've done, and what I am interested in doing.",
+        "image": "headshot.jpg",
+        "bio": "I am currently a software developer at Amazon. I am passionate about the intersection between artificial intelligence, machine learning, and data science. In my free time I like to play basketball and ocassionally watch TV or sports as well as watch anime.",
+        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "email": "echen5878@gmail.com",
+        "phone": "2243929293",
+        "address": {
+            "city": "Seattle",
+            "state": "Washington"
+        },
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/ericchen5878",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "http://github.com/echen5878",
+                "className": "fa fa-github"
+            }
+        ]
     },
-    "social":[
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/ericchen5878",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/echen5878",
-        "className":"fa fa-github"
-      }
-    ]
-  },
-  "resume":{
-    "skillmessage":"Here are some of the software and technologies I have been using and my experience in each skill.",
-    "education":[
-      {
-        "school":"Cornell University",
-        "degree":"Masters of Engineering in Computer Science",
-        "graduated":"May 2020",
-        "classes":["CS 5414: Distributed Computing Principles", "CS 5620: Computer Graphics", "CS 6766: Reasoning About Uncertainty", "CS 5430: Systems Security", "CS 6700: Advanced Artificial Intelligence", "CS 4300: Language and Information"]
-      },
-      {
-        "school":"Cornell University",
-        "degree":"Bachelor's of Science in Computer Science",
-        "graduated":"December 2019",
-        "classes":["CS 2110: OOP and Data Structures", "CS 3110: Functional Programming", "CS 3410: Computer Systems Organization", "CS 4410: Operating Systems", "CS 4450: Computer Networks", "CS 4740: Natural Language Processing", "CS 4670: Computer Vision", "CS 4700: Artificial Intelligence", "CS 4780: Machine Learning for Intelligent Systems", "CS 4787: Large Scale Machine Learning", "CS 4820: Analysis of Algorithms"]
-      }
-    ],
-    "work":[
-      {
-        "company":"Amazon Web Services (AWS)",
-        "title":"Software Development Engineer",
-        "years":"July 2020 - Present",
-        "description":"I am working on a team in AWS Managed Services, which is a service family under AWS that manages customer accounts and changes done in their accounts through various services that we developed."
-      },
-      {
-        "company":"Cornell University",
-        "title":"Teaching Assistant",
-        "years":"August 2017 - May 2020",
-        "description":"I am a teaching assistant for data structures and OOP, differential equations, machine learning, artificial intelligence, and computer organization. For the differential equations class, I prepared worksheets and lectures for students in the class and met biweekly with other facilitators to learn and train about active learning techniques. For the other classes, I helped grade homework and exams for respective class and held office hours to help students understand the material."
-      },
-      {
-        "company":"JP Morgan Chase",
-        "title":"Software Engineer Intern",
-        "years":"June 2019 - August 2019",
-        "description":"Developed the \"Chaos Proxy\" application, which simulated network latencies and outages experienced by network requests to the various mock services used by the application during high load Performance testing (Similar to the Chaos Monkey Project - Netflix). Created a UI dashboard to allow performance testers to configure various mock services using ReactJS and Bootstrap. The server side proxy application was developed using Spring Boot. Application was built and deployed as a standalone war file on Apache Tomcat."
-      },
-      {
-        "company":"Harman International",
-        "title":"Software Engineering Intern",
-        "years":"May 2018 - August 2018",
-        "description":"Used Python Flask web framework to connect Postgresql to Python through ORM and Graphql. Then wrote Python script to create nodes and relationships for company models in Neo4j graph database."
-      },
-      {
-        "company":"Harman International",
-        "title":"Software Engineering Intern",
-        "years":"May 2017 - August 2017",
-        "description":"Used data intelligence platform powered by Splunk to search, analyze, and visualize big data. Wrote Python code and regex to format Android log files and index them into Splunk for analysis. Then developed Python modules to analyze Android HMI tickets by important attributes such as Priority and Date and generate reports for tickets without log files."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Git",
-        "level":"90"
-      },
-      {
-        "name":"Java",
-        "level":"95"
-      },
-      {
-        "name":"Python",
-        "level":"70"
-      },
-      {
-        "name":"SQL",
-        "level":"70"
-      },
-      {
-        "name":"ReactJS",
-        "level":"60"
-      },
-      {
-        "name":"R",
-        "level":"50"
-      },
-      {
-        "name":"Spring",
-        "level":"40"
-      },
-      {
-        "name":"Bootstrap",
-        "level":"40"
-      },
-      {
-        "name":"C++",
-        "level":"50"
-      }
-    ]
-  },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"Mineswifter",
-        "category":"A taylor swift themed minesweeper game in OCaml",
-        "image":"mineswifter.png",
-        "url":"https://github.com/echen5878/MineSwifter"
-      },
-      {
-        "title":"K nearest neighbor classifier",
-        "category":"KNN classifier to classify numbers",
-        "image":"knn.png"
-      },
-      {
-        "title":"Perceptron",
-        "category":"Perceptron classifier for ML",
-        "image":"perceptron.png"
-      },
-      {
-        "title":"Website",
-        "category":"A React based personal website",
-        "image":"website.png"
-      },
-      {
-        "title":"Empirical Risk Minimization",
-        "category":"ERM using gradient descent for spam filtering",
-        "image":"ERM.png"
-      },
-      {
-        "title":"Bias Variance tradeoff",
-        "category":"Analyzing bias variance tradeoff in machine learning",
-        "image":"bias var.png"
-      },
-      {
-        "title":"Kernelized SVM",
-        "category":"RBF kernel support vector machine",
-        "image":"kernels.png"
-      },
-      {
-        "title":"Random forest classifier",
-        "category":"Random forest classifier with adaboost",
-        "image":"random forest.png"
-      },
-      {
-        "title":"Hybrid image filtering",
-        "category":"Extracts low/high frequencies from images to create hybrids",
-        "image":"hybrid image.png"
-      },
-      {
-        "title":"Edge detection",
-        "category":"Using image gradients for edge detection and contour",
-        "image":"gradients.png"
-      },
-      {
-        "title":"Feature detection",
-        "category":"Using MOPS to detect features across transformed images",
-        "image":"feature detection.png"
-      },
-      {
-        "title":"Albedos and lighting",
-        "category":"Use plane sweep and photometric stereos to extract depth",
-        "image":"normals.png"
-      },
-      {
-        "title":"Convolutional neural net",
-        "category":"CNN for image recognition with adversarial noise",
-        "image":"neural net.png"
-      },
-      {
-        "title":"CSMA/CD simulator",
-        "category":"Simulates progress of packet delivery in networking with CSMA/CD",
-        "image":"CSMA-CD.png",
-        "url":"https://github.com/echen5878/CSMA-CD-simulator"
-      },
-      {
-        "title":"Filters",
-        "category":"Uses filters to smooth upsampling and downsampling",
-        "image":"filters.png"
-      },
-      {
-        "title":"Meshes",
-        "category":"Generates meshes using triangles",
-        "image":"meshes.png"
-      },
-      {
-        "title":"Ray Tracing",
-        "category":"Uses ray tracing to render a scene",
-        "image":"ray tracing.png"
-      },
-      {
-        "title":"Manipulators",
-        "category":"Uses manipulators to perform affine transformations on objects",
-        "image":"manipulators.png"
-      },
-      {
-        "title":"Shaders",
-        "category":"Uses GLSL for vertex and fragment shaders",
-        "image":"shaders.png"
-      },
-      {
-        "title":"Splines",
-        "category":"Generates splines given the control points",
-        "image":"splines.png"
-      },
-      {
-        "title":"Animation",
-        "category":"Updates timeline with transformations to a character",
-        "image":"animation.png"
-      },
-      {
-        "title":"CharCrafter",
-        "category":"Character build recommender for dungeons & dragons",
-        "image":"charcrafter.png",
-        "url":"http://charcrafter.herokuapp.com"
-      },
-      {
-        "title":"Coup Agents",
-        "category":"Artificial intelligence models for the game Coup",
-        "image":"coup.jpg",
-        "url":"https://github.com/echen5878/CS6700-Project"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
-      }
-    ]
-  }
+    "resume": {
+        "skillmessage": "Here are some of the software and technologies I have been using and my experience in each skill.",
+        "education": [
+            {
+                "school": "Cornell University",
+                "degree": "Masters of Engineering in Computer Science",
+                "graduated": "May 2020",
+                "classes": [
+                    "CS 5414: Distributed Computing Principles",
+                    "CS 5620: Computer Graphics",
+                    "CS 6766: Reasoning About Uncertainty",
+                    "CS 5430: Systems Security",
+                    "CS 6700: Advanced Artificial Intelligence",
+                    "CS 4300: Language and Information"
+                ]
+            },
+            {
+                "school": "Cornell University",
+                "degree": "Bachelor's of Science in Computer Science",
+                "graduated": "December 2019",
+                "classes": [
+                    "CS 2110: OOP and Data Structures",
+                    "CS 3110: Functional Programming",
+                    "CS 3410: Computer Systems Organization",
+                    "CS 4410: Operating Systems",
+                    "CS 4450: Computer Networks",
+                    "CS 4740: Natural Language Processing",
+                    "CS 4670: Computer Vision",
+                    "CS 4700: Artificial Intelligence",
+                    "CS 4780: Machine Learning for Intelligent Systems",
+                    "CS 4787: Large Scale Machine Learning",
+                    "CS 4820: Analysis of Algorithms"
+                ]
+            }
+        ],
+        "work": [
+            {
+                "company": "Amazon Web Services (AWS)",
+                "title": "Software Development Engineer",
+                "years": "July 2020 - Present",
+                "description": "I am working on a team in AWS Managed Services, which is a service family under AWS that manages customer accounts and changes done in their accounts through various services that we developed. Read more at https://aws.amazon.com/managed-services/"
+            },
+            {
+                "company": "Cornell University",
+                "title": "Teaching Assistant",
+                "years": "August 2017 - May 2020",
+                "description": "I am a teaching assistant for data structures and OOP, differential equations, machine learning, artificial intelligence, and computer organization. For the differential equations class, I prepared worksheets and lectures for students in the class and met biweekly with other facilitators to learn and train about active learning techniques. For the other classes, I helped grade homework and exams for respective class and held office hours to help students understand the material."
+            },
+            {
+                "company": "JP Morgan Chase",
+                "title": "Software Engineer Intern",
+                "years": "June 2019 - August 2019",
+                "description": "Developed the \"Chaos Proxy\" application, which simulated network latencies and outages experienced by network requests to the various mock services used by the application during high load Performance testing (Similar to the Chaos Monkey Project - Netflix). Created a UI dashboard to allow performance testers to configure various mock services using ReactJS and Bootstrap. The server side proxy application was developed using Spring Boot. Application was built and deployed as a standalone war file on Apache Tomcat."
+            },
+            {
+                "company": "Harman International",
+                "title": "Software Engineering Intern",
+                "years": "May 2018 - August 2018",
+                "description": "Used Python Flask web framework to connect Postgresql to Python through ORM and Graphql. Then wrote Python script to create nodes and relationships for company models in Neo4j graph database."
+            },
+            {
+                "company": "Harman International",
+                "title": "Software Engineering Intern",
+                "years": "May 2017 - August 2017",
+                "description": "Used data intelligence platform powered by Splunk to search, analyze, and visualize big data. Wrote Python code and regex to format Android log files and index them into Splunk for analysis. Then developed Python modules to analyze Android HMI tickets by important attributes such as Priority and Date and generate reports for tickets without log files."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Git",
+                "level": "90",
+                "icon": "devicon-git-plain colored"
+            },
+            {
+                "name": "Java",
+                "level": "95",
+                "icon": "devicon-java-plain colored"
+            },
+            {
+                "name": "Python",
+                "level": "90",
+                "icon": "devicon-python-plain colored"
+            },
+            {
+                "name": "AWS",
+                "level": "90",
+                "icon": "devicon-amazonwebservices-original colored"
+            },
+            {
+                "name": "Typescript",
+                "level": "75",
+                "icon": "devicon-typescript-plain colored"
+            },
+            {
+                "name": "SQL",
+                "level": "70",
+                "icon": "devicon-mysql-plain colored"
+            },
+            {
+                "name": "ReactJS",
+                "level": "60",
+                "icon": "devicon-react-original colored"
+            },
+            {
+                "name": "R",
+                "level": "50",
+                "icon": "devicon-rstudio-plain colored"
+            },
+            {
+                "name": "Spring",
+                "level": "40",
+                "icon": "devicon-spring-plain colored"
+            },
+            {
+                "name": "Bootstrap",
+                "level": "40",
+                "icon": "devicon-bootstrap-plain colored"
+            },
+            {
+                "name": "C++",
+                "level": "50",
+                "icon": "devicon-cplusplus-plain colored"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Mineswifter",
+                "category": "A taylor swift themed minesweeper game in OCaml",
+                "image": "mineswifter.png",
+                "url": "https://github.com/echen5878/MineSwifter"
+            },
+            {
+                "title": "K nearest neighbor classifier",
+                "category": "KNN classifier to classify numbers",
+                "image": "knn.png"
+            },
+            {
+                "title": "Perceptron",
+                "category": "Perceptron classifier for ML",
+                "image": "perceptron.png"
+            },
+            {
+                "title": "Website",
+                "category": "A React based personal website",
+                "image": "website.png"
+            },
+            {
+                "title": "Empirical Risk Minimization",
+                "category": "ERM using gradient descent for spam filtering",
+                "image": "ERM.png"
+            },
+            {
+                "title": "Bias Variance tradeoff",
+                "category": "Analyzing bias variance tradeoff in machine learning",
+                "image": "bias var.png"
+            },
+            {
+                "title": "Kernelized SVM",
+                "category": "RBF kernel support vector machine",
+                "image": "kernels.png"
+            },
+            {
+                "title": "Random forest classifier",
+                "category": "Random forest classifier with adaboost",
+                "image": "random forest.png"
+            },
+            {
+                "title": "Hybrid image filtering",
+                "category": "Extracts low/high frequencies from images to create hybrids",
+                "image": "hybrid image.png"
+            },
+            {
+                "title": "Edge detection",
+                "category": "Using image gradients for edge detection and contour",
+                "image": "gradients.png"
+            },
+            {
+                "title": "Feature detection",
+                "category": "Using MOPS to detect features across transformed images",
+                "image": "feature detection.png"
+            },
+            {
+                "title": "Albedos and lighting",
+                "category": "Use plane sweep and photometric stereos to extract depth",
+                "image": "normals.png"
+            },
+            {
+                "title": "Convolutional neural net",
+                "category": "CNN for image recognition with adversarial noise",
+                "image": "neural net.png"
+            },
+            {
+                "title": "CSMA/CD simulator",
+                "category": "Simulates progress of packet delivery in networking with CSMA/CD",
+                "image": "CSMA-CD.png",
+                "url": "https://github.com/echen5878/CSMA-CD-simulator"
+            },
+            {
+                "title": "Filters",
+                "category": "Uses filters to smooth upsampling and downsampling",
+                "image": "filters.png"
+            },
+            {
+                "title": "Meshes",
+                "category": "Generates meshes using triangles",
+                "image": "meshes.png"
+            },
+            {
+                "title": "Ray Tracing",
+                "category": "Uses ray tracing to render a scene",
+                "image": "ray tracing.png"
+            },
+            {
+                "title": "Manipulators",
+                "category": "Uses manipulators to perform affine transformations on objects",
+                "image": "manipulators.png"
+            },
+            {
+                "title": "Shaders",
+                "category": "Uses GLSL for vertex and fragment shaders",
+                "image": "shaders.png"
+            },
+            {
+                "title": "Splines",
+                "category": "Generates splines given the control points",
+                "image": "splines.png"
+            },
+            {
+                "title": "Animation",
+                "category": "Updates timeline with transformations to a character",
+                "image": "animation.png"
+            },
+            {
+                "title": "CharCrafter",
+                "category": "Character build recommender for dungeons & dragons",
+                "image": "charcrafter.png",
+                "url": "http://charcrafter.herokuapp.com"
+            },
+            {
+                "title": "Coup Agents",
+                "category": "Artificial intelligence models for the game Coup",
+                "image": "coup.jpg",
+                "url": "https://github.com/echen5878/CS6700-Project"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+                "user": "Kareem Abdul Jabbar"
+            },
+            {
+                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
 }
