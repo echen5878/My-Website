@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { CircularProgressbar, CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import { buildStyles, CircularProgressbar, CircularProgressbarWithChildren } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import "react-vertical-timeline-component/style.min.css";
 import ProgressProvider from "./ProgressProvider";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -26,19 +28,48 @@ class Resume extends Component {
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
+        // return (
+        //   <VerticalTimelineElement
+        //     className="vertical-timeline-element--work"
+        //     contentStyle={{ background: '#e9d5a1', color: '#fff' }}
+        //     contentArrowStyle={{ borderRight: '7px solid  #e9d5a1' }}
+        //     date={work.years}
+        //     iconStyle={{
+        //       background: "#AE944F",
+        //       color: "#fff",
+        //       textAlign: "center",
+        //     }}
+        //     icon={<i class="fa fa-github"></i>}
+        //   >
+        //     <h3
+        //       className="vertical-timeline-element-title"
+        //       style={{ textAlign: "left" }}
+        //     >
+        //       {work.title}
+        //     </h3>
+        //     <h4
+        //       className="vertical-timeline-element-subtitle"
+        //       style={{ textAlign: "left" }}
+        //     >
+        //       {work.company}
+        //     </h4>
+        //     <div class="flip-card-back">{work.description}</div>
+        //   </VerticalTimelineElement>
+        // );
       })
       var skills = this.props.data.skills.map(function(skills){
         var skill = skills.name;
-        var im = "images/" + skills.name.toLowerCase() + " logo.png";
+        // var im = "images/" + skills.name.toLowerCase() + " logo.png";
         var per = Number(skills.level);
         return <div class="columns feature-item">
         <VisibilitySensor>
           {({isVisible}) => {
             const percentage = isVisible ? per : 0;
             return (
-              <CircularProgressbarWithChildren value={percentage}>
-              <label style={{marginTop: 20, marginBottom: 5}}>{skill}</label>
-              <img style={{ width: 40, marginTop: -5, marginBottom: 5 }} src={im} alt={skill} />
+              <CircularProgressbarWithChildren className="progress-bar" value={percentage} styles={buildStyles({pathColor:`rgba(255, 165, 0, ${percentage / 100})`})}>
+              <label style={{ fontSize: 15, marginTop: 20, marginBottom: 5}}>{skill}</label>
+              {/* <img style={{ width: 40, marginTop: -5, marginBottom: 5 }} src={im} alt={skill} /> */}
+              <i style={{ fontSize: 40, marginTop: -5, marginBottom: 5 }} class={skills.icon}></i>
               <div style={{ fontSize: 12, marginTop: -5, marginBottom: 10}}>
                  <strong>{per}%</strong>
               </div>
@@ -76,7 +107,21 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
-          {work}
+          {/* <VerticalTimeline
+            lineColor="#000"
+          > */}
+              {work}
+              {/* <VerticalTimelineElement
+                iconStyle={{
+                  background: "#AE944F",
+                  color: "#fff",
+                  textAlign: "center",
+                }}
+                icon={
+                  <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+                }
+              />
+            </VerticalTimeline> */}
         </div>
     </div>
 
