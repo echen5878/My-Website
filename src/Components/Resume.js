@@ -24,10 +24,18 @@ class Resume extends Component {
         </div>
       })
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
+        if (work.url) {
+          return <div key={work.company}><h3>{work.company}</h3>
+            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+            <p>{work.description}<a href={work.url}>{work.url}</a>.</p>
+          </div>
+        }
+        else {
+          return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
-        </div>
+          </div>
+        }
         // return (
         //   <VerticalTimelineElement
         //     className="vertical-timeline-element--work"
