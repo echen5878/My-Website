@@ -65,7 +65,8 @@
                 "company": "Amazon Web Services (AWS)",
                 "title": "Software Development Engineer",
                 "years": "July 2020 - Present",
-                "description": "I am working on a team in AWS Managed Services, which is a service family under AWS that manages customer accounts and changes done in their accounts through various services that we developed. Read more at https://aws.amazon.com/managed-services/"
+                "description": "I am working on a team in AWS Managed Services, which is a service family under AWS that manages customer accounts and changes done in their accounts through various services that we developed. Read more at ",
+                "url": "https://aws.amazon.com/managed-services"
             },
             {
                 "company": "Cornell University",
