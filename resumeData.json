@@ -263,8 +263,7 @@
             {
                 "title": "CharCrafter",
                 "category": "Character build recommender for dungeons & dragons",
-                "image": "charcrafter.png",
-                "url": "http://charcrafter.herokuapp.com"
+                "image": "charcrafter.png"
             },
             {
                 "title": "Coup Agents",
